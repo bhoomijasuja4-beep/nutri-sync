@@ -17,7 +17,7 @@ export default function PreventiveRecommendations({ tips }: Props) {
         {tips.map((tip) => (
           <Link 
             key={tip.id} 
-            href={tip.linkTo}
+            href={tip.linkTo || "#"}
             className="group flex flex-col bg-white rounded-3xl p-6 border border-border/60 shadow-sm hover:shadow-md hover:border-primary/30 transition-all cursor-pointer h-full"
           >
              <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary/10 to-primary/5 text-primary flex items-center justify-center text-2xl mb-4 group-hover:scale-110 transition-transform">
