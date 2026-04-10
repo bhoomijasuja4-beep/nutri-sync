@@ -1,4 +1,4 @@
-export default function HeroSection() {
+export default function HeroSection({ onGetStarted }: { onGetStarted?: () => void }) {
   return (
     <section id="hero" className="relative overflow-hidden bg-white">
       {/* Background decorative elements */}
@@ -54,9 +54,16 @@ export default function HeroSection() {
               className="animate-fade-up mt-8 flex flex-col sm:flex-row gap-4"
               style={{ animationDelay: "0.3s" }}
             >
-              <a
-                href="#pricing"
-                className="group relative inline-flex items-center justify-center rounded-xl bg-primary px-8 py-4 text-base font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-primary-dark hover:shadow-2xl hover:shadow-primary/40 hover:-translate-y-1 active:translate-y-0"
+              <button
+                onClick={(e) => {
+                  e.preventDefault();
+                  if (onGetStarted) {
+                    onGetStarted();
+                  } else {
+                    window.location.href = "#pricing";
+                  }
+                }}
+                className="group relative inline-flex items-center justify-center rounded-xl bg-primary px-8 py-4 text-base font-semibold text-white shadow-xl shadow-primary/30 transition-all hover:bg-primary-dark hover:shadow-2xl hover:shadow-primary/40 hover:-translate-y-1 active:translate-y-0 cursor-pointer"
               >
                 Get started
                 <svg
@@ -68,7 +75,7 @@ export default function HeroSection() {
                 >
                   <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
-              </a>
+              </button>
               <a
                 href="#how-it-works"
                 className="inline-flex items-center justify-center rounded-xl border border-border px-8 py-4 text-base font-semibold text-foreground transition-all hover:border-primary/30 hover:bg-primary-50/50 hover:-translate-y-0.5"
