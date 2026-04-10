@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rule001",
+    "name": "High Calorie Day",
+    "description": "Daily calorie intake exceeds 120% of target",
+    "category": "calories",
+    "severity": "warning",
+    "condition": { "metric": "dailyCalories", "operator": "gt", "value": 1.2 },
+    "recommendation": "Try to reduce portion sizes or swap high-calorie items for lighter alternatives.",
+    "icon": "⚠️"
+  },
+  {
+    "id": "rule002",
+    "name": "Calorie Binge Pattern",
+    "description": "Exceeded 120% calorie target for 3+ consecutive days",
+    "category": "calories",
+    "severity": "critical",
+    "condition": { "metric": "dailyCalories", "operator": "gt", "value": 1.2, "daysRequired": 3 },
+    "recommendation": "Consider adding more vegetables and lean proteins to feel full on fewer calories. Track portions carefully.",
+    "icon": "🔴"
+  },
+  {
+    "id": "rule003",
+    "name": "Excess Sugar",
+    "description": "Daily sugar intake exceeds 50g (WHO recommends <25g free sugar)",
+    "category": "sugar",
+    "severity": "warning",
+    "condition": { "metric": "totalSugar", "operator": "gt", "value": 50 },
+    "recommendation": "Cut back on sweetened beverages and processed snacks. Try fruit as a natural sweet alternative.",
+    "icon": "🍬"
+  },
+  {
+    "id": "rule004",
+    "name": "Diabetic Sugar Spike",
+    "description": "Single meal contains >30g sugar for users with diabetes",
+    "category": "sugar",
+    "severity": "critical",
+    "condition": { "metric": "mealSugar", "operator": "gt", "value": 30, "healthConditionRequired": "diabetes" },
+    "recommendation": "This meal has very high sugar content which can cause blood sugar spikes. Consider swapping sugary items for low-GI alternatives.",
+    "icon": "🚨"
+  },
+  {
+    "id": "rule005",
+    "name": "High Sodium",
+    "description": "Daily sodium intake exceeds 2300mg",
+    "category": "sodium",
+    "severity": "warning",
+    "condition": { "metric": "totalSodium", "operator": "gt", "value": 2300 },
+    "recommendation": "Reduce processed foods, canned soups, and salty snacks. Use herbs and spices instead of salt for flavoring.",
+    "icon": "🧂"
+  },
+  {
+    "id": "rule006",
+    "name": "Low Fiber",
+    "description": "Daily fiber intake below 25g for 3+ days",
+    "category": "fiber",
+    "severity": "warning",
+    "condition": { "metric": "totalFiber", "operator": "lt", "value": 25, "daysRequired": 3 },
+    "recommendation": "Add more leafy greens, legumes, and whole grains to your meals. Try switching to whole wheat bread and brown rice.",
+    "icon": "🥦"
+  },
+  {
+    "id": "rule007",
+    "name": "Protein Deficit",
+    "description": "Below 80% of protein target for 5+ days",
+    "category": "protein",
+    "severity": "warning",
+    "condition": { "metric": "totalProtein", "operator": "lt", "value": 0.8, "daysRequired": 5 },
+    "recommendation": "Include more lean meats, eggs, Greek yogurt, beans, or tofu in your meals to meet your protein needs.",
+    "icon": "💪"
+  },
+  {
+    "id": "rule008",
+    "name": "Meal Skipping - Breakfast",
+    "description": "No breakfast logged for 4+ days",
+    "category": "patterns",
+    "severity": "info",
+    "condition": { "metric": "breakfastSkipped", "operator": "gte", "value": 4 },
+    "recommendation": "Eating breakfast helps kickstart your metabolism and provides energy for the morning. Try quick options like overnight oats or yogurt parfaits.",
+    "icon": "🌅"
+  },
+  {
+    "id": "rule009",
+    "name": "Late Night Eating",
+    "description": "Meals logged after 9pm for 3+ days",
+    "category": "patterns",
+    "severity": "info",
+    "condition": { "metric": "lateNightMeals", "operator": "gte", "value": 3 },
+    "recommendation": "Eating late can affect sleep quality and digestion. Try to have your last meal at least 2-3 hours before bedtime.",
+    "icon": "🌙"
+  },
+  {
+    "id": "rule010",
+    "name": "Under-eating",
+    "description": "Daily calories below 70% of target",
+    "category": "calories",
+    "severity": "warning",
+    "condition": { "metric": "dailyCalories", "operator": "lt", "value": 0.7 },
+    "recommendation": "Eating too little can slow your metabolism and deprive your body of essential nutrients. Make sure you're fueling adequately.",
+    "icon": "📉"
+  }
+]

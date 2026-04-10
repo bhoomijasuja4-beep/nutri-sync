@@ -1,0 +1,242 @@
+[
+  {
+    "id":"r001","name":"Greek Yogurt Parfait","image":"🥣","cookTimeMinutes":5,"servings":1,"mealType":"breakfast",
+    "tags":["quick","high-protein","vegetarian"],"difficulty":"easy",
+    "ingredients":[{"name":"Greek Yogurt","amount":"170","unit":"g"},{"name":"Blueberries","amount":"75","unit":"g"},{"name":"Granola","amount":"30","unit":"g"},{"name":"Honey","amount":"10","unit":"g"}],
+    "instructions":["Layer Greek yogurt in a glass or bowl.","Add a layer of fresh blueberries.","Top with granola and drizzle with honey.","Serve immediately."],
+    "nutrition":{"calories":280,"protein":20,"carbs":38,"fat":5,"fiber":3,"sugar":22,"sodium":70},
+    "dietaryLabels":["vegetarian","gluten-free-option","low-sodium"]
+  },
+  {
+    "id":"r002","name":"Avocado Toast with Egg","image":"🥑","cookTimeMinutes":10,"servings":1,"mealType":"breakfast",
+    "tags":["quick","high-protein","popular"],"difficulty":"easy",
+    "ingredients":[{"name":"Whole Wheat Bread","amount":"2","unit":"slices"},{"name":"Avocado","amount":"1/2","unit":"whole"},{"name":"Egg","amount":"1","unit":"whole"},{"name":"Lemon Juice","amount":"1","unit":"tsp"},{"name":"Salt & Pepper","amount":"","unit":"to taste"}],
+    "instructions":["Toast the bread until golden.","Mash avocado with lemon juice, salt, and pepper.","Fry or poach the egg to your preference.","Spread avocado on toast and top with egg.","Season with pepper and optional red pepper flakes."],
+    "nutrition":{"calories":350,"protein":15,"carbs":30,"fat":20,"fiber":8,"sugar":3,"sodium":320},
+    "dietaryLabels":["vegetarian","dairy-free"]
+  },
+  {
+    "id":"r003","name":"Overnight Oats","image":"🫙","cookTimeMinutes":5,"servings":1,"mealType":"breakfast",
+    "tags":["meal-prep","high-fiber","no-cook"],"difficulty":"easy",
+    "ingredients":[{"name":"Oats","amount":"50","unit":"g"},{"name":"Milk","amount":"150","unit":"ml"},{"name":"Chia Seeds","amount":"10","unit":"g"},{"name":"Banana","amount":"1/2","unit":"whole"},{"name":"Peanut Butter","amount":"15","unit":"g"}],
+    "instructions":["Combine oats, milk, and chia seeds in a jar.","Stir well, cover, and refrigerate overnight.","In the morning, top with sliced banana and peanut butter.","Enjoy cold or microwave for 1-2 minutes if preferred warm."],
+    "nutrition":{"calories":380,"protein":14,"carbs":52,"fat":14,"fiber":9,"sugar":15,"sodium":140},
+    "dietaryLabels":["vegetarian","vegan-option"]
+  },
+  {
+    "id":"r004","name":"Spinach & Mushroom Omelette","image":"🍳","cookTimeMinutes":10,"servings":1,"mealType":"breakfast",
+    "tags":["high-protein","low-carb","keto"],"difficulty":"easy",
+    "ingredients":[{"name":"Eggs","amount":"3","unit":"whole"},{"name":"Spinach","amount":"30","unit":"g"},{"name":"Mushrooms","amount":"50","unit":"g"},{"name":"Olive Oil","amount":"1","unit":"tsp"},{"name":"Salt & Pepper","amount":"","unit":"to taste"}],
+    "instructions":["Whisk eggs with salt and pepper.","Heat olive oil in a non-stick pan over medium heat.","Sauté mushrooms for 2-3 minutes, add spinach until wilted.","Pour in eggs, cook until set on bottom.","Fold omelette in half and serve."],
+    "nutrition":{"calories":280,"protein":22,"carbs":4,"fat":19,"fiber":2,"sugar":2,"sodium":350},
+    "dietaryLabels":["vegetarian","keto","low-carb","gluten-free","low-gi"]
+  },
+  {
+    "id":"r005","name":"Protein Smoothie Bowl","image":"🥤","cookTimeMinutes":5,"servings":1,"mealType":"breakfast",
+    "tags":["quick","high-protein","post-workout"],"difficulty":"easy",
+    "ingredients":[{"name":"Protein Powder","amount":"30","unit":"g"},{"name":"Banana (frozen)","amount":"1","unit":"whole"},{"name":"Almond Milk","amount":"120","unit":"ml"},{"name":"Blueberries","amount":"50","unit":"g"},{"name":"Granola","amount":"20","unit":"g"}],
+    "instructions":["Blend protein powder, frozen banana, and almond milk until thick and creamy.","Pour into a bowl.","Top with blueberries and granola.","Add other toppings like chia seeds or coconut flakes if desired."],
+    "nutrition":{"calories":350,"protein":30,"carbs":45,"fat":5,"fiber":6,"sugar":20,"sodium":200},
+    "dietaryLabels":["vegetarian","gluten-free-option"]
+  },
+  {
+    "id":"r006","name":"Quinoa Chicken Bowl","image":"🥗","cookTimeMinutes":25,"servings":2,"mealType":"lunch",
+    "tags":["high-protein","meal-prep","balanced"],"difficulty":"medium",
+    "ingredients":[{"name":"Quinoa","amount":"100","unit":"g"},{"name":"Chicken Breast","amount":"200","unit":"g"},{"name":"Bell Pepper","amount":"1","unit":"whole"},{"name":"Cucumber","amount":"1/2","unit":"whole"},{"name":"Olive Oil","amount":"1","unit":"tbsp"},{"name":"Lemon Juice","amount":"2","unit":"tbsp"}],
+    "instructions":["Cook quinoa according to package directions and let cool.","Season chicken with salt, pepper, and olive oil. Grill or pan-fry until cooked through.","Dice bell pepper and cucumber.","Assemble bowls: quinoa base, sliced chicken, vegetables.","Drizzle with lemon juice and olive oil."],
+    "nutrition":{"calories":420,"protein":38,"carbs":40,"fat":12,"fiber":6,"sugar":4,"sodium":180},
+    "dietaryLabels":["dairy-free","gluten-free","low-gi"]
+  },
+  {
+    "id":"r007","name":"Turkey & Avocado Wrap","image":"🌯","cookTimeMinutes":10,"servings":1,"mealType":"lunch",
+    "tags":["quick","high-protein","portable"],"difficulty":"easy",
+    "ingredients":[{"name":"Whole Wheat Tortilla","amount":"1","unit":"large"},{"name":"Turkey Breast","amount":"85","unit":"g"},{"name":"Avocado","amount":"1/4","unit":"whole"},{"name":"Lettuce","amount":"2","unit":"leaves"},{"name":"Tomato","amount":"2","unit":"slices"},{"name":"Mustard","amount":"1","unit":"tsp"}],
+    "instructions":["Lay tortilla flat and spread mustard.","Layer turkey, sliced avocado, lettuce and tomato.","Roll up tightly, tucking ends in.","Cut in half diagonally and serve."],
+    "nutrition":{"calories":340,"protein":28,"carbs":28,"fat":14,"fiber":6,"sugar":3,"sodium":680},
+    "dietaryLabels":["dairy-free"]
+  },
+  {
+    "id":"r008","name":"Lentil Soup","image":"🍲","cookTimeMinutes":35,"servings":4,"mealType":"lunch",
+    "tags":["high-fiber","vegan","meal-prep","low-gi"],"difficulty":"easy",
+    "ingredients":[{"name":"Lentils","amount":"200","unit":"g"},{"name":"Onion","amount":"1","unit":"whole"},{"name":"Carrot","amount":"2","unit":"whole"},{"name":"Garlic","amount":"3","unit":"cloves"},{"name":"Vegetable Broth","amount":"1","unit":"L"},{"name":"Cumin","amount":"1","unit":"tsp"},{"name":"Olive Oil","amount":"1","unit":"tbsp"}],
+    "instructions":["Heat olive oil and sauté diced onion and garlic until soft.","Add diced carrots and cook 3 minutes.","Add lentils, broth, and cumin. Bring to a boil.","Reduce heat, cover, and simmer 25-30 minutes until lentils are tender.","Season with salt and pepper. Blend partially if desired."],
+    "nutrition":{"calories":250,"protein":16,"carbs":38,"fat":4,"fiber":14,"sugar":5,"sodium":420},
+    "dietaryLabels":["vegan","gluten-free","low-gi","low-sodium","heart-healthy"]
+  },
+  {
+    "id":"r009","name":"Mediterranean Chickpea Salad","image":"🥙","cookTimeMinutes":15,"servings":2,"mealType":"lunch",
+    "tags":["vegan","high-fiber","no-cook","low-gi"],"difficulty":"easy",
+    "ingredients":[{"name":"Chickpeas","amount":"240","unit":"g"},{"name":"Cucumber","amount":"1","unit":"whole"},{"name":"Tomato","amount":"2","unit":"whole"},{"name":"Red Onion","amount":"1/4","unit":"whole"},{"name":"Olive Oil","amount":"2","unit":"tbsp"},{"name":"Lemon Juice","amount":"2","unit":"tbsp"},{"name":"Parsley","amount":"1/4","unit":"cup"}],
+    "instructions":["Drain and rinse chickpeas.","Dice cucumber, tomatoes, and red onion.","Combine all vegetables with chickpeas in a large bowl.","Whisk olive oil and lemon juice for dressing.","Toss salad with dressing and chopped parsley. Season to taste."],
+    "nutrition":{"calories":320,"protein":14,"carbs":40,"fat":12,"fiber":10,"sugar":6,"sodium":280},
+    "dietaryLabels":["vegan","gluten-free","low-gi","heart-healthy"]
+  },
+  {
+    "id":"r010","name":"Grilled Salmon with Asparagus","image":"🐟","cookTimeMinutes":20,"servings":2,"mealType":"dinner",
+    "tags":["high-protein","omega-3","heart-healthy"],"difficulty":"medium",
+    "ingredients":[{"name":"Salmon Fillets","amount":"300","unit":"g"},{"name":"Asparagus","amount":"200","unit":"g"},{"name":"Olive Oil","amount":"1","unit":"tbsp"},{"name":"Lemon","amount":"1","unit":"whole"},{"name":"Garlic","amount":"2","unit":"cloves"},{"name":"Dill","amount":"1","unit":"tbsp"}],
+    "instructions":["Preheat oven to 200°C (400°F).","Place salmon and asparagus on a baking sheet.","Drizzle with olive oil, minced garlic, and lemon juice.","Season with salt, pepper, and dill.","Bake for 15-18 minutes until salmon flakes easily."],
+    "nutrition":{"calories":380,"protein":35,"carbs":6,"fat":24,"fiber":3,"sugar":2,"sodium":120},
+    "dietaryLabels":["gluten-free","dairy-free","low-carb","heart-healthy","low-gi"]
+  },
+  {
+    "id":"r011","name":"Chicken Stir-Fry","image":"🍜","cookTimeMinutes":20,"servings":2,"mealType":"dinner",
+    "tags":["high-protein","quick","popular"],"difficulty":"easy",
+    "ingredients":[{"name":"Chicken Breast","amount":"250","unit":"g"},{"name":"Broccoli","amount":"150","unit":"g"},{"name":"Bell Pepper","amount":"1","unit":"whole"},{"name":"Soy Sauce","amount":"2","unit":"tbsp"},{"name":"Ginger","amount":"1","unit":"tsp"},{"name":"Garlic","amount":"2","unit":"cloves"},{"name":"Sesame Oil","amount":"1","unit":"tbsp"}],
+    "instructions":["Slice chicken into thin strips and season.","Heat sesame oil in a wok over high heat.","Stir-fry chicken 4-5 minutes until golden. Remove and set aside.","Add garlic and ginger, cook 30 seconds.","Add broccoli and bell pepper, stir-fry 3-4 minutes.","Return chicken, add soy sauce, toss well.","Serve over brown rice or noodles."],
+    "nutrition":{"calories":320,"protein":36,"carbs":12,"fat":14,"fiber":4,"sugar":5,"sodium":720},
+    "dietaryLabels":["dairy-free"]
+  },
+  {
+    "id":"r012","name":"Vegetable Curry with Brown Rice","image":"🍛","cookTimeMinutes":30,"servings":3,"mealType":"dinner",
+    "tags":["vegan","high-fiber","comfort-food"],"difficulty":"medium",
+    "ingredients":[{"name":"Sweet Potato","amount":"200","unit":"g"},{"name":"Chickpeas","amount":"200","unit":"g"},{"name":"Coconut Milk","amount":"200","unit":"ml"},{"name":"Onion","amount":"1","unit":"whole"},{"name":"Garlic","amount":"3","unit":"cloves"},{"name":"Curry Powder","amount":"2","unit":"tbsp"},{"name":"Spinach","amount":"60","unit":"g"},{"name":"Brown Rice","amount":"150","unit":"g"}],
+    "instructions":["Cook brown rice according to package directions.","Sauté diced onion and garlic in olive oil until soft.","Add cubed sweet potato and curry powder, cook 2 minutes.","Pour in coconut milk and chickpeas. Simmer 20 minutes.","Stir in spinach until wilted. Season to taste.","Serve curry over brown rice."],
+    "nutrition":{"calories":450,"protein":14,"carbs":62,"fat":16,"fiber":12,"sugar":10,"sodium":350},
+    "dietaryLabels":["vegan","gluten-free","dairy-free"]
+  },
+  {
+    "id":"r013","name":"Beef & Broccoli Bowl","image":"🥩","cookTimeMinutes":25,"servings":2,"mealType":"dinner",
+    "tags":["high-protein","popular","hearty"],"difficulty":"medium",
+    "ingredients":[{"name":"Lean Beef","amount":"250","unit":"g"},{"name":"Broccoli","amount":"200","unit":"g"},{"name":"Soy Sauce","amount":"3","unit":"tbsp"},{"name":"Garlic","amount":"2","unit":"cloves"},{"name":"Ginger","amount":"1","unit":"tsp"},{"name":"Brown Rice","amount":"150","unit":"g"},{"name":"Sesame Seeds","amount":"1","unit":"tsp"}],
+    "instructions":["Cook brown rice according to directions.","Slice beef thinly against the grain.","Heat oil in a pan, sear beef on high heat until browned.","Add garlic, ginger, and broccoli. Stir-fry 3-4 min.","Add soy sauce, toss well.","Serve over rice and sprinkle with sesame seeds."],
+    "nutrition":{"calories":480,"protein":38,"carbs":45,"fat":16,"fiber":5,"sugar":4,"sodium":780},
+    "dietaryLabels":["dairy-free"]
+  },
+  {
+    "id":"r014","name":"Baked Cod with Sweet Potato","image":"🐠","cookTimeMinutes":30,"servings":2,"mealType":"dinner",
+    "tags":["high-protein","low-fat","heart-healthy"],"difficulty":"easy",
+    "ingredients":[{"name":"Cod Fillets","amount":"300","unit":"g"},{"name":"Sweet Potato","amount":"250","unit":"g"},{"name":"Olive Oil","amount":"1","unit":"tbsp"},{"name":"Lemon","amount":"1","unit":"whole"},{"name":"Paprika","amount":"1","unit":"tsp"},{"name":"Green Beans","amount":"150","unit":"g"}],
+    "instructions":["Preheat oven to 200°C (400°F).","Cube sweet potato, toss with olive oil and paprika. Roast 15 min.","Add cod fillets and green beans to the tray.","Squeeze lemon over cod, season well.","Bake another 12-15 min until cod is flaky."],
+    "nutrition":{"calories":340,"protein":32,"carbs":38,"fat":6,"fiber":6,"sugar":8,"sodium":180},
+    "dietaryLabels":["gluten-free","dairy-free","low-fat","heart-healthy","low-gi"]
+  },
+  {
+    "id":"r015","name":"Tofu Teriyaki Bowl","image":"🍱","cookTimeMinutes":25,"servings":2,"mealType":"dinner",
+    "tags":["vegan","high-protein","asian-inspired"],"difficulty":"medium",
+    "ingredients":[{"name":"Firm Tofu","amount":"300","unit":"g"},{"name":"Brown Rice","amount":"150","unit":"g"},{"name":"Broccoli","amount":"100","unit":"g"},{"name":"Carrot","amount":"1","unit":"whole"},{"name":"Soy Sauce","amount":"3","unit":"tbsp"},{"name":"Maple Syrup","amount":"1","unit":"tbsp"},{"name":"Ginger","amount":"1","unit":"tsp"},{"name":"Sesame Seeds","amount":"1","unit":"tsp"}],
+    "instructions":["Press and cube tofu. Cook rice per directions.","Mix soy sauce, maple syrup, and ginger for teriyaki sauce.","Pan-fry tofu until golden on all sides, about 8 min.","Steam broccoli and slice carrots.","Pour teriyaki sauce over tofu, cook 1 min until glazed.","Assemble bowls: rice, tofu, vegetables. Garnish with sesame seeds."],
+    "nutrition":{"calories":420,"protein":24,"carbs":52,"fat":14,"fiber":6,"sugar":8,"sodium":650},
+    "dietaryLabels":["vegan","dairy-free"]
+  },
+  {
+    "id":"r016","name":"Hummus & Veggie Wrap","image":"🌮","cookTimeMinutes":5,"servings":1,"mealType":"lunch",
+    "tags":["vegan","quick","portable"],"difficulty":"easy",
+    "ingredients":[{"name":"Whole Wheat Tortilla","amount":"1","unit":"large"},{"name":"Hummus","amount":"60","unit":"g"},{"name":"Cucumber","amount":"1/2","unit":"whole"},{"name":"Bell Pepper","amount":"1/2","unit":"whole"},{"name":"Spinach","amount":"handful","unit":""},{"name":"Carrot","amount":"1","unit":"small"}],
+    "instructions":["Spread hummus generously on tortilla.","Layer sliced cucumber, bell pepper, grated carrot, and spinach.","Roll up tightly and cut in half.","Serve immediately or wrap in foil for a portable lunch."],
+    "nutrition":{"calories":290,"protein":10,"carbs":38,"fat":12,"fiber":8,"sugar":5,"sodium":450},
+    "dietaryLabels":["vegan","dairy-free","low-gi"]
+  },
+  {
+    "id":"r017","name":"Sweet Potato & Black Bean Tacos","image":"🌮","cookTimeMinutes":25,"servings":3,"mealType":"dinner",
+    "tags":["vegan","high-fiber","mexican-inspired"],"difficulty":"medium",
+    "ingredients":[{"name":"Sweet Potato","amount":"200","unit":"g"},{"name":"Black Beans","amount":"200","unit":"g"},{"name":"Corn Tortillas","amount":"6","unit":"small"},{"name":"Avocado","amount":"1","unit":"whole"},{"name":"Lime","amount":"1","unit":"whole"},{"name":"Cumin","amount":"1","unit":"tsp"},{"name":"Salsa","amount":"60","unit":"g"}],
+    "instructions":["Cube and roast sweet potato with cumin at 200°C for 20 min.","Heat black beans in a small pot.","Warm tortillas in a dry pan.","Assemble tacos: beans, sweet potato, sliced avocado, salsa.","Squeeze lime juice over top and serve."],
+    "nutrition":{"calories":380,"protein":12,"carbs":55,"fat":14,"fiber":14,"sugar":8,"sodium":380},
+    "dietaryLabels":["vegan","gluten-free","low-gi"]
+  },
+  {
+    "id":"r018","name":"Turkey Meatballs with Marinara","image":"🍝","cookTimeMinutes":30,"servings":3,"mealType":"dinner",
+    "tags":["high-protein","comfort-food","family-friendly"],"difficulty":"medium",
+    "ingredients":[{"name":"Ground Turkey","amount":"400","unit":"g"},{"name":"Whole Wheat Pasta","amount":"200","unit":"g"},{"name":"Tomato Sauce","amount":"300","unit":"ml"},{"name":"Onion","amount":"1/2","unit":"whole"},{"name":"Garlic","amount":"2","unit":"cloves"},{"name":"Italian Seasoning","amount":"1","unit":"tbsp"},{"name":"Egg","amount":"1","unit":"whole"}],
+    "instructions":["Mix turkey, diced onion, egg, and seasoning. Form into balls.","Bake meatballs at 200°C for 15-18 min.","Cook pasta per package directions.","Simmer marinara sauce with garlic.","Combine meatballs with sauce, serve over pasta."],
+    "nutrition":{"calories":480,"protein":35,"carbs":50,"fat":14,"fiber":7,"sugar":8,"sodium":580},
+    "dietaryLabels":["dairy-free"]
+  },
+  {
+    "id":"r019","name":"Apple Slices with Peanut Butter","image":"🍎","cookTimeMinutes":3,"servings":1,"mealType":"snack",
+    "tags":["quick","kid-friendly","no-cook"],"difficulty":"easy",
+    "ingredients":[{"name":"Apple","amount":"1","unit":"medium"},{"name":"Peanut Butter","amount":"2","unit":"tbsp"}],
+    "instructions":["Core and slice the apple.","Serve with peanut butter for dipping.","Optional: sprinkle with cinnamon or granola."],
+    "nutrition":{"calories":280,"protein":8,"carbs":32,"fat":16,"fiber":6,"sugar":22,"sodium":136},
+    "dietaryLabels":["vegan","gluten-free","vegetarian"]
+  },
+  {
+    "id":"r020","name":"Trail Mix Energy Bites","image":"🍪","cookTimeMinutes":15,"servings":12,"mealType":"snack",
+    "tags":["meal-prep","no-cook","portable"],"difficulty":"easy",
+    "ingredients":[{"name":"Oats","amount":"100","unit":"g"},{"name":"Peanut Butter","amount":"60","unit":"g"},{"name":"Honey","amount":"30","unit":"g"},{"name":"Dark Chocolate Chips","amount":"30","unit":"g"},{"name":"Chia Seeds","amount":"10","unit":"g"}],
+    "instructions":["Mix all ingredients in a bowl until combined.","Refrigerate 15 min until firm.","Roll into ~12 balls.","Store in refrigerator for up to a week."],
+    "nutrition":{"calories":110,"protein":4,"carbs":14,"fat":5,"fiber":2,"sugar":6,"sodium":35},
+    "dietaryLabels":["vegetarian"]
+  },
+  {
+    "id":"r021","name":"Veggie Sticks with Hummus","image":"🥕","cookTimeMinutes":5,"servings":1,"mealType":"snack",
+    "tags":["vegan","quick","low-calorie"],"difficulty":"easy",
+    "ingredients":[{"name":"Carrot","amount":"1","unit":"large"},{"name":"Cucumber","amount":"1/2","unit":"whole"},{"name":"Bell Pepper","amount":"1/2","unit":"whole"},{"name":"Hummus","amount":"45","unit":"g"}],
+    "instructions":["Wash and cut vegetables into sticks.","Serve with hummus for dipping."],
+    "nutrition":{"calories":130,"protein":5,"carbs":18,"fat":5,"fiber":5,"sugar":6,"sodium":200},
+    "dietaryLabels":["vegan","gluten-free","low-calorie","low-gi"]
+  },
+  {
+    "id":"r022","name":"Greek Salad","image":"🥗","cookTimeMinutes":10,"servings":2,"mealType":"lunch",
+    "tags":["vegetarian","mediterranean","quick"],"difficulty":"easy",
+    "ingredients":[{"name":"Cucumber","amount":"1","unit":"whole"},{"name":"Tomato","amount":"2","unit":"large"},{"name":"Red Onion","amount":"1/4","unit":"whole"},{"name":"Feta Cheese","amount":"60","unit":"g"},{"name":"Olives","amount":"10","unit":"whole"},{"name":"Olive Oil","amount":"2","unit":"tbsp"},{"name":"Lemon Juice","amount":"1","unit":"tbsp"}],
+    "instructions":["Chop cucumber, tomatoes, and red onion into chunks.","Combine in a large bowl.","Add olives and crumbled feta cheese.","Drizzle with olive oil and lemon juice.","Season with oregano, salt, and pepper."],
+    "nutrition":{"calories":250,"protein":8,"carbs":12,"fat":20,"fiber":3,"sugar":6,"sodium":480},
+    "dietaryLabels":["vegetarian","gluten-free","low-carb"]
+  },
+  {
+    "id":"r023","name":"Banana Oat Pancakes","image":"🥞","cookTimeMinutes":15,"servings":2,"mealType":"breakfast",
+    "tags":["vegetarian","kid-friendly","high-fiber"],"difficulty":"easy",
+    "ingredients":[{"name":"Banana","amount":"1","unit":"large"},{"name":"Oats","amount":"50","unit":"g"},{"name":"Egg","amount":"1","unit":"whole"},{"name":"Cinnamon","amount":"1/2","unit":"tsp"},{"name":"Blueberries","amount":"handful","unit":""}],
+    "instructions":["Blend banana, oats, egg, and cinnamon into a batter.","Heat a lightly oiled pan over medium heat.","Pour small circles of batter, add a few blueberries.","Cook 2-3 min per side until golden.","Serve with a drizzle of honey or maple syrup."],
+    "nutrition":{"calories":220,"protein":9,"carbs":38,"fat":5,"fiber":5,"sugar":14,"sodium":45},
+    "dietaryLabels":["vegetarian","dairy-free","gluten-free"]
+  },
+  {
+    "id":"r024","name":"Tuna Salad Lettuce Wraps","image":"🥬","cookTimeMinutes":10,"servings":2,"mealType":"lunch",
+    "tags":["high-protein","low-carb","keto"],"difficulty":"easy",
+    "ingredients":[{"name":"Canned Tuna","amount":"170","unit":"g"},{"name":"Greek Yogurt","amount":"30","unit":"g"},{"name":"Celery","amount":"1","unit":"stalk"},{"name":"Lemon Juice","amount":"1","unit":"tbsp"},{"name":"Lettuce","amount":"4","unit":"leaves"},{"name":"Mustard","amount":"1","unit":"tsp"}],
+    "instructions":["Drain tuna and mix with Greek yogurt and mustard.","Dice celery and fold into tuna mixture.","Add lemon juice and season with salt and pepper.","Spoon tuna salad into lettuce leaves.","Serve immediately."],
+    "nutrition":{"calories":180,"protein":30,"carbs":4,"fat":4,"fiber":1,"sugar":2,"sodium":400},
+    "dietaryLabels":["gluten-free","low-carb","keto","low-gi"]
+  },
+  {
+    "id":"r025","name":"Veggie Buddha Bowl","image":"🥗","cookTimeMinutes":30,"servings":2,"mealType":"lunch",
+    "tags":["vegan","superfood","colorful"],"difficulty":"medium",
+    "ingredients":[{"name":"Quinoa","amount":"100","unit":"g"},{"name":"Sweet Potato","amount":"150","unit":"g"},{"name":"Chickpeas","amount":"120","unit":"g"},{"name":"Kale","amount":"60","unit":"g"},{"name":"Avocado","amount":"1/2","unit":"whole"},{"name":"Tahini","amount":"2","unit":"tbsp"},{"name":"Lemon Juice","amount":"1","unit":"tbsp"}],
+    "instructions":["Cook quinoa per package directions.","Roast cubed sweet potato and chickpeas at 200°C for 20 min.","Massage kale with a drizzle of olive oil.","Make tahini dressing: mix tahini, lemon juice, and water.","Assemble bowls with all components and drizzle dressing."],
+    "nutrition":{"calories":480,"protein":18,"carbs":58,"fat":20,"fiber":14,"sugar":6,"sodium":200},
+    "dietaryLabels":["vegan","gluten-free","dairy-free","low-gi"]
+  },
+  {
+    "id":"r026","name":"Grilled Chicken Salad","image":"🥗","cookTimeMinutes":20,"servings":2,"mealType":"lunch",
+    "tags":["high-protein","low-carb","classic"],"difficulty":"easy",
+    "ingredients":[{"name":"Chicken Breast","amount":"200","unit":"g"},{"name":"Mixed Greens","amount":"100","unit":"g"},{"name":"Cherry Tomatoes","amount":"100","unit":"g"},{"name":"Cucumber","amount":"1/2","unit":"whole"},{"name":"Olive Oil","amount":"1","unit":"tbsp"},{"name":"Balsamic Vinegar","amount":"1","unit":"tbsp"}],
+    "instructions":["Season and grill chicken until cooked, 6-7 min per side.","Let rest 5 min, then slice.","Toss mixed greens, halved tomatoes, and sliced cucumber.","Top with chicken slices.","Drizzle with olive oil and balsamic vinegar."],
+    "nutrition":{"calories":300,"protein":34,"carbs":10,"fat":14,"fiber":3,"sugar":5,"sodium":150},
+    "dietaryLabels":["gluten-free","dairy-free","low-carb","low-gi"]
+  },
+  {
+    "id":"r027","name":"Edamame & Brown Rice Bowl","image":"🍚","cookTimeMinutes":20,"servings":2,"mealType":"lunch",
+    "tags":["vegan","high-protein","asian-inspired"],"difficulty":"easy",
+    "ingredients":[{"name":"Brown Rice","amount":"150","unit":"g"},{"name":"Edamame","amount":"150","unit":"g"},{"name":"Carrot","amount":"1","unit":"whole"},{"name":"Cucumber","amount":"1/2","unit":"whole"},{"name":"Soy Sauce","amount":"2","unit":"tbsp"},{"name":"Sesame Oil","amount":"1","unit":"tsp"},{"name":"Rice Vinegar","amount":"1","unit":"tbsp"}],
+    "instructions":["Cook rice and edamame per package directions.","Julienne carrot and slice cucumber.","Mix soy sauce, sesame oil, and rice vinegar for dressing.","Assemble bowls with rice, edamame, and vegetables.","Drizzle with dressing and serve."],
+    "nutrition":{"calories":380,"protein":20,"carbs":55,"fat":8,"fiber":8,"sugar":4,"sodium":580},
+    "dietaryLabels":["vegan","dairy-free"]
+  },
+  {
+    "id":"r028","name":"One-Pan Lemon Herb Chicken & Veggies","image":"🍗","cookTimeMinutes":35,"servings":3,"mealType":"dinner",
+    "tags":["easy-cleanup","high-protein","family-friendly"],"difficulty":"easy",
+    "ingredients":[{"name":"Chicken Thighs","amount":"500","unit":"g"},{"name":"Zucchini","amount":"2","unit":"whole"},{"name":"Bell Pepper","amount":"2","unit":"whole"},{"name":"Olive Oil","amount":"2","unit":"tbsp"},{"name":"Lemon","amount":"1","unit":"whole"},{"name":"Italian Seasoning","amount":"2","unit":"tsp"},{"name":"Garlic","amount":"3","unit":"cloves"}],
+    "instructions":["Preheat oven to 200°C (400°F).","Toss chicken and chopped veggies with olive oil, garlic, lemon juice, and seasoning.","Spread on a baking sheet in a single layer.","Bake 30-35 minutes until chicken is cooked through.","Serve family-style directly from the pan."],
+    "nutrition":{"calories":350,"protein":30,"carbs":12,"fat":20,"fiber":3,"sugar":5,"sodium":200},
+    "dietaryLabels":["gluten-free","dairy-free","low-carb"]
+  },
+  {
+    "id":"r029","name":"Dark Chocolate & Almond Energy Bark","image":"🍫","cookTimeMinutes":15,"servings":8,"mealType":"snack",
+    "tags":["antioxidant","satisfying","meal-prep"],"difficulty":"easy",
+    "ingredients":[{"name":"Dark Chocolate","amount":"200","unit":"g"},{"name":"Almonds","amount":"60","unit":"g"},{"name":"Dried Cranberries","amount":"30","unit":"g"},{"name":"Sea Salt","amount":"pinch","unit":""}],
+    "instructions":["Melt dark chocolate in a double boiler or microwave.","Pour onto a parchment-lined baking sheet in a thin layer.","Sprinkle with chopped almonds, cranberries, and a pinch of sea salt.","Refrigerate 1 hour until set.","Break into irregular pieces and store in an airtight container."],
+    "nutrition":{"calories":180,"protein":3,"carbs":18,"fat":12,"fiber":3,"sugar":12,"sodium":20},
+    "dietaryLabels":["vegan","gluten-free","vegetarian"]
+  },
+  {
+    "id":"r030","name":"Egg Fried Rice","image":"🍳","cookTimeMinutes":15,"servings":2,"mealType":"dinner",
+    "tags":["quick","budget-friendly","family-friendly"],"difficulty":"easy",
+    "ingredients":[{"name":"Cooked Brown Rice","amount":"300","unit":"g"},{"name":"Eggs","amount":"2","unit":"whole"},{"name":"Frozen Peas & Carrots","amount":"100","unit":"g"},{"name":"Soy Sauce","amount":"2","unit":"tbsp"},{"name":"Sesame Oil","amount":"1","unit":"tsp"},{"name":"Green Onion","amount":"2","unit":"stalks"}],
+    "instructions":["Heat sesame oil in a large pan or wok.","Scramble eggs, break into pieces, set aside.","Stir-fry peas and carrots 2-3 min.","Add rice, stir-fry on high heat 3-4 min until slightly crispy.","Add soy sauce and egg, toss well.","Garnish with sliced green onions."],
+    "nutrition":{"calories":380,"protein":14,"carbs":52,"fat":12,"fiber":4,"sugar":3,"sodium":620},
+    "dietaryLabels":["vegetarian","dairy-free"]
+  }
+]
